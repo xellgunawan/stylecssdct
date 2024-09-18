@@ -1,0 +1,70 @@
+body {
+
+background-color: #27374D; 
+
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+        background-color: #86a5af;
+        padding: 20px;
+        border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center; 
+    background-color: #3c4653; 
+}
+
+.navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #171b20;
+}
+
+.song-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.song-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #152038;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.song-link:hover {
+    background-color: #031831;
+}
+
